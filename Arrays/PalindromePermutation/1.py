@@ -5,6 +5,7 @@ if __name__ == '__main__':
     s = s.replace("'",'')
     s = s.replace(':','')
     s = s.replace(',','')
+    s = s.lower()
     
     h = [0 for i in range(26)]
     oddCount = 0
